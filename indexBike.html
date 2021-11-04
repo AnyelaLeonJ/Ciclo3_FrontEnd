@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="scriptBike.js"></script>  
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <title>Ciclo3 - Bike</title>
+    </head>
+
+    <body>
+        <h1>Bike</h1>
+        <div class="form">
+            <input type="text" id="Oname" placeholder="name">
+            <input type="text" id="Obrand" placeholder="brand">
+            <input type="number" id="Oyear" placeholder="year">
+            <input type="text" id="Odescription" placeholder="description">    
+
+            <div>
+                <button onclick="guardarInformacionBike()">Guardar</button>
+                <button onclick="traerInformacionBike()" >Consultar</button>
+                <button onclick="actualizarInformacionBike()" >Actualizar</button>
+                <button onclick="location.href='index.html'">Volver</button>
+            </div>
+        </div>
+
+        <div>
+            <br><h1>Datos</h1>
+            <table class="resultado">
+                <thead>
+                    <tr>
+                        <th>name</th>
+                        <th>brand</th>
+                        <th>year</th>
+                        <th>description</th>
+                    </tr>
+                </thead>
+                <tbody id="resultadoBike"></tbody>
+            </table>
+        </div> 
+    </body>
+</html>

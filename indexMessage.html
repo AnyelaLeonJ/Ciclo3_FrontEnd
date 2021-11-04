@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="scriptMessage.js"></script>  
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <title>Ciclo3 - Message</title>
+    </head>
+
+    <body>
+        <h1>Message</h1>   
+        <div class="form">
+            <input type="text" id="message" placeholder="message text">
+
+            <div>
+                <button onclick="guardarInformacionMessage()">Guardar</button>
+                <button onclick="traerInformacionMessage()" >Consultar</button>
+                <button onclick="actualizarInformacionMessage()" >Actualizar</button>
+                <button onclick="location.href='index.html'">Volver</button>
+            </div>
+        </div>
+            
+        <div>
+            <br><h1>Datos</h1>
+            <table class="resultado">
+                <thead>
+                    <tr>
+                        <th>message</th>
+                    </tr>
+                </thead>
+                <tbody id="resultadoMessage"></tbody>
+            </table>
+        </div>        
+    </body>
+</html>

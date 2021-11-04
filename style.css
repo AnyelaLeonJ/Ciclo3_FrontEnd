@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.form{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+  
+  .form button {
+    padding: 0.5em 1em;
+    border: round;
+    background: rgb(145, 163, 173);
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .resultado {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  
